@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+header, footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  width: 100%;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+section {
+  text-align: center;
+}
+
+aside {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 75px;
+}
+
+aside ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  padding: 10px 0;
+}
+
+.card {
+  width: 1000px;
+  height: auto;
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.199);
+  backdrop-filter: blur(6px);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.profile-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.profile-table td {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.profile-table tr:last-child td {
+  border-bottom: none;
+}
+
+.profile-table td:first-child {
+  font-weight: bold;
+  width: 40%;
+}
+
